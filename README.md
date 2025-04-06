@@ -10,16 +10,6 @@
 
 ---
 
-## ✨ Features
-
-- 🧠 **Learn**: Understand the basics of ASL with visual sign representations.
-- 🎯 **Practice**: Test your knowledge interactively.
-- 🔁 **Translate**: Convert text to ASL sign visuals.
-- 👤 **Profile**: Personalized dashboard (optional feature).
-- ⚡ **Fast & Responsive**: Built with Vite and Tailwind for optimized performance.
-
----
-
 ## 💻 Tech Stack
 
 | Frontend       | Tool/Library       |
@@ -32,27 +22,84 @@
 | Deployment     | Vercel / GitHub Pages |
 
 ---
-## 🔮 Future Updates
+## 🚀 Inspiration
 
-While the application is fully functional and meets the core objectives, there are several areas I plan to improve in upcoming iterations:
+Communication is a fundamental human right — but millions in the deaf and hard-of-hearing community still face daily obstacles in being understood. While American Sign Language (ASL) is a powerful bridge, it remains inaccessible to most people unfamiliar with it.
 
-### 📉 Model Accuracy
-The current implementation utilizes a pre-trained model from Hugging Face for sign language recognition. While it provides a working baseline, I am not fully satisfied with its accuracy and responsiveness.
+I built **ASL Learning Buddy** to change that.
 
-In future updates, I plan to replace this with a **custom-trained model** built using **TensorFlow** and **MediaPipe**, tailored specifically for ASL gestures. This should lead to significantly improved precision and overall user experience.
+My goal was simple: make ASL approachable through technology. Not just as a learning tool, but as a platform that empowers real-time interaction using sign language — turning curiosity into capability.
 
-### 🎨 UI/UX Enhancements
-The current user interface is minimal and functional, but it could benefit from additional polish and interactive elements. Planned improvements include:
-- Enhanced visual design for better accessibility
-- Animated transitions and feedback
-- Improved layout and responsive design for mobile devices
+---
 
-### 🚧 General Vision
-This current build represents a **foundational version** of the larger vision I have for ASL Learning Buddy. While it demonstrates core functionality, future versions will be more robust, intelligent, and user-friendly.
+## 💡 What It Does
 
-Stay tuned for exciting updates in the near future!
+**ASL Learning Buddy** is a web-based platform designed to:
+
+- 🧠 **Teach ASL signs** through clean, interactive modules
+- 📷 **Recognize hand signs in real-time** using webcam input
+- 🔁 **Translate ASL to text** on the fly
+- 🔊 **Convert text to speech**, enabling two-way communication
+
+The platform isn't just for learners — it's a practical bridge between hearing and non-hearing communities.
+
+---
+
+## 🧱 Current Challenges
+
+This is just the beginning — and like any good version 1.0, it’s a working prototype with clear room for growth:
+
+- ⚙️ **Model Accuracy**: The current Hugging Face model isn’t hitting the reliability I expect. Different lighting, hand sizes, and speeds impact the predictions. I'm already working on a custom TensorFlow model paired with MediaPipe for better precision.
+- 🕸️ **UI Polish**: While functional, the UI needs more finesse. I plan to add smoother transitions, better visual feedback, and overall aesthetic polish.
+- 🧪 **Edge Cases**: Fast hand movements or partially-visible signs confuse the model — something I’ll address in the custom build.
+
+---
+
+## 🏆 Achievements So Far
+
+- Developed a **fully functional ASL platform** from scratch — design, code, deploy
+- Integrated **live webcam input** with AI-powered sign detection
+- Enabled **bi-directional communication**: from signs to text to speech
+- Got valuable feedback from early testers, including members of the deaf and hard-of-hearing community
+- Made it **accessible for free** on the web — no downloads, no barriers
+
+---
+
+## 📚 What I Learned
+
+- How to work with and fine-tune AI models in-browser using **TensorFlow.js**
+- The balance between **technical complexity** and **accessibility**
+- Designing with empathy — making every click and interaction count for all users
+- That even an early prototype, if built with intent, can spark genuine impact
+
+---
+
+## 🔮 What’s Next for ASL Learning Buddy
+
+This version is just a prototype — a glimpse of what’s coming.
+
+Here’s what I’m building next:
+
+- ✋ A **custom-trained sign recognition model** using TensorFlow + MediaPipe
+- 📱 A mobile-friendly version for on-the-go use
+- 🧩 **Gamified learning paths** and achievements
+- 🗣️ **Voice-to-sign translation** — flipping the interaction the other way
+- 🤝 Collaborating with educators and accessibility advocates to refine the experience
+
+This is more than a tool — it’s a mission. One I’m just getting started on.
+
+---
+
+## 🌍 Final Thought
+
+Technology should be a bridge, not a barrier. With ASL Learning Buddy, I’m building a world where learning to communicate is easy, inclusive, and empowering for everyone.
+
+
 
 
 This project was created as part of AI Agent beginners Hackathon, focused on accessible learning tools and inclusive tech solutions.
 
 Created by Varun Singh
+
+
+
